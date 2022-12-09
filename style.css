@@ -1,0 +1,255 @@
+h1{
+    color:rgb(91, 39, 7);
+    text-align: center;
+}
+.topnav{
+    overflow:hidden;
+    background-color: rgb(82, 50, 2);
+    width: 100%;
+    text-decoration: none;
+    
+}
+.topnav a{
+    float:right;
+    color:white;
+    text-align: center;
+    padding: 25px 10px;
+    
+}
+.topnav a:hover{
+    background-color: rgb(171, 130, 64);
+    text-decoration: underline;
+    border-bottom: 4px solid green;
+}
+#logo{
+    float:left;
+    margin:0;
+    
+}
+/*.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}*/
+
+.button{
+    background-color: rgb(214, 151, 48);
+}
+
+#topside{
+    background-size: 30px;
+    height:300px;
+    width:100%;
+    position: relative;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#burgerimg{
+    /* background-image: url("burge_top.jpg"); */
+    /* height:120px;
+    width:100%; */
+    /* position: relative; */
+    display: block;
+    margin:auto;
+    
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.bottomside{
+    background-image: url("burger_bottom.jpg");
+    background-size: 270px;
+    height:60px;
+    width:100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+.footer{
+    clear: both;
+    position: relative;
+    background-color: rgb(214, 151, 48);
+    left:0;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    padding: 16px 0px;
+    margin-top: 48px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 5px;
+    cursor: pointer;
+    
+  }
+.saladbutton1,.baconbutton1, .cheesebutton1,.meatbutton1
+{
+background-color: #5b3c06;
+margin-left:10% ;
+margin-bottom: 0.4rem;
+}
+.button2{background-color: #a5811e;} 
+.button1{
+    padding: 1px 10px;
+}
+.button2 {
+    padding: 1px 10px;
+}
+/*
+.Salad{
+    position: absolute;
+    left: 200px;
+    top: -16px;
+    display: flex;
+}*/
+/*
+.Salad{
+    position: absolute;
+    left: 404px;
+    top: -16px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 23px 121px;
+}
+*/
+h3{
+    margin-left: 10%;
+
+}
+.Salad h3{
+    position: absolute;
+    left: 400px;
+    top: -4px;
+}
+.Bacon h3{
+    position: absolute;
+    left: 400px;
+    top: 23px;
+}
+.Cheese h3{
+    position: absolute;
+    left: 400px;
+    top: 48px;
+}
+.Meat h3{
+    position: absolute;
+    left: 400px;
+    top: 75px;
+}
+.Saladfill{
+    /* background-image: url("greenline.jpg");  */
+    
+    /* margin-top: ; */
+    /* src:url("greenline.jpg"); */
+
+    /* background-position: center; */
+    align-items: center;
+    
+    display: block;
+    margin-right: auto;
+    background-color: green;
+    height:15px;
+    width:20px;
+    margin-left: auto;
+    padding: 1px 98px;
+    margin-bottom: 0.2rem;
+    
+ 
+} 
+#Saladimage{
+    background-image:url("greenline.jpg");    
+    background-position: center;
+
+    display:block;
+   margin:auto;
+    height:100px;
+    width:100px;
+
+}
+
+.Baconfill{
+    align-items: center;
+    
+    display: block;
+    margin-right: auto;
+    background-color: rgb(196, 80, 25);
+    height:15px;
+    width:20px;
+    margin-left: auto;
+    padding: 1px 98px;
+    margin-bottom: 0.2rem;
+    
+}
+.Cheesefill{
+    align-items: center;
+    
+    display: block;
+    margin-right: auto;
+    background-color: rgb(176, 191, 76);
+    height:15px;
+    width:20px;
+    margin-left: auto;
+    padding: 1px 98px;
+    margin-bottom: 0.2rem;
+}
+.Meatfill{
+    align-items: center;
+    
+    display: block;
+    margin-right: auto;
+    background-color: rgb(71, 27, 6);
+    height:15px;
+    width:20px;
+    margin-left: auto;
+    padding: 1px 98px;
+    margin-bottom: 0.2rem;
+}
+.Meatlessfill{
+    background-image: url("white.jpg");
+    
+    /* 
+    font-size: larger;
+    color: blue;
+    background-position: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    background-position: center;
+    align-items: center;
+    position:absolute;
+    display: block;
+    margin-left: 530px;
+    margin-right: auto;
+    border: black 5px;
+    padding: 5px 90px;
+    margin-top:214px;*/
+    align-items: center;
+    
+    display: block;
+    margin-right: auto;
+    /* background-color: rgb(19, 18, 17); */
+    height:15px;
+    width:20px;
+    margin-left: auto;
+    padding: 1px 98px;
+    margin-bottom: 0.2rem;
+    
+    
+}
